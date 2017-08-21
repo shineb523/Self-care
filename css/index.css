@@ -1,0 +1,64 @@
+html, body, #outermost{
+    height: 100%;
+}
+#outermost{
+    display: flex;
+    flex-direction: column;
+}
+
+#title{
+    border: 1px solid;
+    font: 70px bold;
+    text-align: center;
+    padding: 7px;
+    width: 95%;
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#title-box{
+    border-bottom: 1px solid;
+}
+
+#middle{
+    margin-top: -1px;
+    display: flex;
+    height: 83%;
+}
+
+#menu{
+    border-right: 1px solid;
+    height: 100%;
+    flex-shrink: 2;
+    flex-grow: 1;
+}
+
+#menu ul{
+    padding-left: 30px;
+}
+
+#contents{
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-shrink: 5;
+    flex-grow: 10;
+}
+
+#bottom-box{
+    border-top: 1px solid;
+}
+
+#bottom{
+    border: 1px solid;
+    margin-top: 7px;
+    padding: 5px;
+    text-align: center;
+}
+
+li{
+    padding-bottom: 7px;
+    font-size: 20px;
+}
